@@ -17,7 +17,7 @@ const getPriceDataAndComparison = function (symbol) {
 const getDailyPrice = function (symbol) {
   return httpModule.get('https://www.alphavantage.co/query?', {
     params: {
-      apikey: process.env.REACT_APP_API_KEY,
+      apikey: "X86NOH6II01P7R24",
       function: 'TIME_SERIES_DAILY',
       symbol
     }
